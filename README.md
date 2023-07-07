@@ -114,9 +114,9 @@ OK
 Starting kernel ...
 ```
 #### Level 3: Dumping the NAND
-I accidentally shorted 12v to ground, immediately killing the router mainboard soon after accessing the UART port. To salvage what was left of the board, I decided to order some NAND flash dumping hardware (I didn't have anything that could do TSOP48 NAND chips) and dump the NAND of the HG8045Q.
+I accidentally shorted 12v to ground, immediately killing the router mainboard soon after accessing the UART port. To salvage what was left of the board, I decided to order some NAND flash dumping hardware (I didn't have anything that could do [TSOP48](https://chipdatas.com/item/2pk4uh9s3-TSOP48.html) NAND chips) and dump the NAND of the HG8045Q.
 
-In the case of this mainboard, the NAND flash used was [Spansion S34ML01G100TF100 SLC 128MB NAND](https://www.kynix.com/Detail/589387/S34ML01G100TF100.html). *(Judging from hex readouts of the flash dump, this chip is most probably not the only one in use as the filesystem has a list of compatible chips integrated.)*
+In the case of this mainboard, the NAND flash used was Spansion S34ML01G100TF100 SLC 128MB NAND. *(Judging from hex readouts of the flash dump, this chip is most probably not the only one in use as the filesystem has a list of compatible chips integrated.)*
 ```
 NAND ID: 0x1f1001d_0x1f1001d
 Manufacturer: Spansion
